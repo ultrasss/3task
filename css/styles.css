@@ -1,0 +1,291 @@
+/*
+    Styles
+*/
+/*подключение шрифта */
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Lobster&family=Open+Sans&display=swap');
+
+body{
+}
+h1{
+    font-family: 'Bebas Neue', normal;
+    font-size: 61pt;
+    color: #FFFFFF;
+}
+h2{
+    font-family: 'Bebas Neue', normal;
+    font-size: 31pt;
+    color: #FFFFFF;
+}
+h3{
+    font-family: 'Bebas Neue', normal;
+    font-size: 27pt;
+    color: #FFFFFF;
+}
+h4{
+    font-family: 'Bebas Neue', normal;
+    font-size: 21pt;
+    color: #FFFFFF;
+}
+h5{
+    font-size: 27px;
+    font-family: "BebasNeue";
+    color: rgb(175, 175, 175);
+    line-height: 0.926;
+    text-align: left;
+    text-transform: uppercase;
+
+}
+
+/* header */
+/*верхний хэдэр*/
+.header-top{
+    display: flex;
+    align-items: center;
+    height: 80px;
+
+}
+.header-top-item{
+    flex-basis: auto;
+    display: inline-block;
+    align-items: center;
+    text-align: center;
+}
+
+.header-logo{
+    font-family: 'Lobster', cursive;
+    font-size: 49pt;
+    color: #3cc3b5;
+    
+}
+.search{
+
+}
+.search input{
+    width: 78%;
+    }
+.basket{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    font-family: 'Lobster', cursive;
+    
+}
+.basket-logo{
+}
+.total{
+    font-family: 'Bebas Neue', normal;
+    font-size: 33pt;
+    color: #a1a1a1;
+}
+
+/*нижний хэдэр*/
+.header-bottom{
+    background-color: #4ccfc1;
+    
+}
+
+.nav-list {
+    height: 36px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+    
+}
+.list-item {
+    
+    
+}
+
+
+/*основная часть*/
+/* слайдер*/
+.slider{ 
+    background: #39c3b9; 
+    height: 445px;
+    display: flex;
+
+   
+} 
+.slider-picture{ 
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+   
+} 
+.slider-picture img{ 
+    height: 100%;
+    width: auto;
+
+   
+} 
+.slider-description{
+    width: 60%;
+    display: flex;
+    flex-direction: column;  
+}
+.description-item1{
+    
+}
+.description-item2{
+    font-family: 'Open sans', serif;
+    font-size: 17pt;
+    color: #FFFFFF;
+}
+.description-item3{
+    
+}
+.button1{
+    background: transparent;
+    border: 3px solid;
+    border-radius: 12pt;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-family: 'Bebas Neue', normal;
+    font-size: 27pt;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+.description-item4{
+    
+}
+
+/*каталог*/
+.catalog{
+    display: flex;
+}
+.catalog-item{
+    display: flex;
+}
+.catalog-item-right{
+    display: flex;
+    flex-direction: column; 
+}
+.catalog-item-right-top{
+    
+}
+.button2{
+    background: #3cc395;
+    border: none;
+    border-radius: 12pt;
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 4px 2px;
+    cursor: pointer;
+    font-family: 'Bebas Neue', normal;
+    font-size: 19pt;
+    color: #FFFFFF;
+}
+/*полоса заголовок */
+.category-name{
+    height: 65px;
+    width: auto;
+    background-color: #3ec5b6;
+}
+/*рекомендуемое*/
+.featured-holder{
+    display: flex;
+}
+.featured-holder-block{
+    width: 33,3333333333%;
+    height: 265px; 
+}
+.featured-holder-block-up{
+
+}
+.featured-holder-block-bottom{
+    display: flex;
+
+}
+/*футер*/
+.footer {
+    background: #d45e5e;
+    color: #FFFFFF;
+    width: 100%;
+    padding: 25px;
+}
+.content-container {
+    display: flex;
+}
+.left-block{
+    width: 70%;
+}
+.inner-up{
+    width: 100%;    
+}
+.up-bar{
+display: flex;
+}
+.footer-logo{
+    width:20%;             
+}
+.geo{
+    width: 60%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+.social{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 20%; 
+}
+.inner-down{
+width: 100%; 
+}
+.right-block{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 30%;
+}
+.result{
+    width: 100%;
+    text-align: center;
+}
+
+/***LANDSCAPE-MOBILE***/
+@media screen and (min-height : 120px) and (max-height : 320px){
+
+}
+/***END--LANDSCAPE-MOBILE***/
+
+/***PORTRAIT-MOBILE***/
+@media screen and (min-width : 120px){
+
+}
+/***END--PORTRAIT-MOBILE***/
+
+/***PORTRAIT-TABLET-MINI***/
+@media screen and (min-width : 768px){
+
+}
+/***END--PORTRAIT-TABLET-MINI***/
+
+/***PORTRAIT-TABLET***/
+@media screen and (min-width : 1024px){
+
+}
+/***END--PORTRAIT-TABLET***/
+
+/***LAPTOP-MDPIScreen***/
+@media screen and (min-width : 1280px){
+
+}
+/***END--LAPTOP-MDPIScreen***/
+
+/***LAPTOP-HiDPIScreen***/
+@media screen and (min-width : 1440px){
+
+}
+/***END--LAPTOP-HiDPIScreen***/
